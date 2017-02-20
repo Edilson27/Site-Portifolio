@@ -8,103 +8,39 @@ body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
     line-height: 1.6;
 	background: #FFF1D6 url(images/logo.png);
+	
 }
-
-.topo {
+/* -------------------------------------- HEADER ---------------------------------------*/
+header {
+	width: 960px;
+	background-color: aqua;
 	position: fixed;
-	display: block !important;
-	top: 0px;
-	z-index: 100;
-	/*width: 100%;*/
-	padding: 10px 0;
-	background: #000;
 }
 
-.topo .logo img {
+.logo {
 	float: left;
 }
 
-img {
-	max-width: 100%;
-	display: block;
-}
-
-.topo .logo span {
-	float: right;
-	width: 130px;
-	margin-top: 20px;
-	font: bold 14px Raleway;
-	color: #fff;
-}
-
-.topo .logo span strong {
-	font-weight: 300;
-	font-family: "Georgia";
-	font-style: italic;
-}
-
-.clear-fix:after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-.conteudo {
-	position: relative;
-	width: 960px;
-	max-width: 92%;
-	min-width: 350px;
-	margin: 0 auto;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
+/* ====================================== Nav ==========================================*/
 
 nav {
+	list-style: inherit;
+
 	margin: 0;
 	padding: 0;
 	border: 0;
 	outline: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
-
-.menu-principal {
-	clear: none;
-	float: right;
-	margin-top: 18px;
-	display: block;
-}
-.menu-principal li {
+	
 	display: inline;
-	position: relative;
-	margin-left: 10px;
-	padding-left: 10px;
-}
-.menu-principal li:first-child::before {
-	content: normal;
-}
-.menu-principal li:first-child {
-	margin: 0;
-	padding: 0;
 }
 
-.menu-principal li:before {
-	content: "/";
-	position: absolute;
-	left: -5px;
-	top: 0px;
-	color: #34495e;
+nav li {
+	display: inline;
+	
 }
 
-ul, ol {
-	list-style: none;
-	display: block;
-}
+/* =====================================================================================*/
 
 /* ---------------------------------------- Rodape -------------------------------------*/
-footer {
-	font-size: 12px;
-	text-align: center;
-}
